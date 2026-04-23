@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #eeee;
+}
+
+body {
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #462C7D;
+}
+
+.navbar {
+    padding: 1em;
+    background-color: #831C91;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bolder;
+}
+
+.nav-link {
+    display: flex;
+    gap: 3em;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #FF70BF;
+    scale: calc(1.2);
+}
+
+a:active {
+    color: #FF70BF;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5em;
+    border: 1px solid #FF70BF;
+    border-radius: 2em;
+    padding: 5em;
+}
+
+.card {
+    justify-content: center;
+    border-radius: 1em;
+    max-width: 13vw;
+    padding: 1em;
+    background-color: #FF70BF;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.ürünbtn {
+    background-color: #462C7D;
+    padding: 1em 2em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.ürünbtn:hover {
+    background-color: #831C91;
+    scale: calc(1.2);
+    transition: all 0.5s;
+}
+
+.hakkimizda {
+    margin-top: 1em;
+    padding: 5em;
+}
+
+.paragraf {
+    display: flex;
+    gap: 2em;
+    border: 1px solid #FF70BF;
+    border-radius: 2em;
+    padding: 5em;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.turkce {
+    line-height: 1.5em;
+    border: 1px solid #831C91;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.İngilizce {
+    line-height: 1.5em;
+    border: 1px solid #831C91;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.iletisim{
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    color: #111;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 100%;
+    max-width: 600px; /* Çok daralmasını önler */
+    margin: 0 auto;
+    padding: 2.5rem;
+    font-size: 1.3em;
+    border: 2px solid #FF70BF; /* Çizgiyi biraz daha belirginleştirdim */
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Hafif bir derinlik */
+}
+
+.form-btn {
+    background-color: #831C91;
+    color: white;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s active;
+}
+
+.form-btn:hover {
+    background-color: #a028b1; /* Hover efekti */
+}
+
+input{
+    padding: 1em;
+    color: #111;
+    border-radius: 0.7em;
+}
